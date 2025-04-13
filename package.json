@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with image display functionality",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^2.4.3",
+    "@discordjs/voice": "^0.18.0",
+    "discord-api-types": "^0.37.120",
+    "discord.js": "^14.18.0",
+    "ytdl-core": "^4.11.5"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
